@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marvel</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
     <script src="marvel.js"></script>
     <link rel="stylesheet" href="marvel.css">
 </head>
 <body>
-    
+    <h1>Marvel API</h1>
+    <div id="container">
+        <button onclick="getInfo()">Click me to pull API data</button>
+    </div>
+
+    <div id="main-container"></div>
 </body>
 </html>

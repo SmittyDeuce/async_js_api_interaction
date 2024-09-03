@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+
+}
+
+button {
+    border-radius: 22px;
+    font-size: 26px;
+    transition: infinite, ease;
+}
+
+button:hover {
+    background-image: -webkit-linear-gradient(green, pink, yellow);
+    transform: scale(1.2);
+}
+
+#main-container {
+    padding: 12px;
+}
